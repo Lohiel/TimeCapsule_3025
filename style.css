@@ -1,0 +1,13 @@
+* {
+  scrollbar-width: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Tahoma', sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #12366c;
+}
