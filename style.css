@@ -212,3 +212,25 @@ img {
   text-shadow:
     0 0 10px #ff6600;
 }
+
+@media (max-width: 768px) {
+  .animacao-conteiner {
+    font-size: 1rem;
+  }
+  navbar {
+    text-align: center;
+  }
+  navbar a {
+    padding: 8px 15px;
+    margin: 0 5px;
+  }
+  #welcome h3 {
+    font-size: 1.2rem;
+  }
+  .proj-titulo {
+    font-size: 2rem;
+  }
+  .Mesagens,.Eventos {
+    font-size: 2.5rem;
+  }
+}
