@@ -70,6 +70,8 @@ main {
     gap: 12px;
     flex-wrap: nowrap;
     white-space: nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .navegacao a {
