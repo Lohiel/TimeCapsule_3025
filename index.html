@@ -124,8 +124,41 @@
             </section>
         </section>
         <section id="Mensagem">
-            <h1>Formulário</h1>
+            <h3>Mensagem para o futuro</h3>
+            <p>Você viajante do tempo, o  que acha de enviar uma mensagem para o seu eu
+                do futuro ou passado?</p>
+            <h4>Aqui você pode fazer isso!</h4>
+               <forms>
+                <fieldset>
+                <legend>Dados Pessoais:</legend>
+                <label for="idnome">nome</label>
+                <input type="text" id="idnome" placeholder="Digite seu nome" spellcheck="true" required>
+
+                <label for="idsobrenome">Sobrenome</label>
+                <input type="text" id="idsobrenome"  placeholder="Digite seu Sobrenome" spellcheck="true" required>
+                </fieldset>
+
+                <fieldset>
+                    <label for="idemail">email</label>
+                    <input type="email" id="idemail" maxlength="20" placeholder="Digite seu email" required>
+
+                    <legend>Genero</legend>
+                    <label for="genero">Masculino</label>
+                    <input type="radio" id="genero" name="genero" value="Masculino">
+
+                    <label for="genero">Feminino</label>
+                    <input type="radio" id="genero" name="genero" value="Feminino">
+
+                </fieldset>
+                <fieldset>
+                    <label for="mensagem-final">Mensagem:</label>
+                    <textarea id="mensagem-final" name="mensagem-final" placeholder="Escreva para o seu eu do futuro ou do passado aqui!" rows="15" cols="40"></textarea>
+                  
+                </fieldset>
+            </forms>
         </section>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Apagar">
         <section id="Eventos">
             <p>texto texto texto texto</p>
         </section>
