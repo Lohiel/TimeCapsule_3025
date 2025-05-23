@@ -252,7 +252,8 @@ img {
         0 0 10px #ff6600;
 }
 
-button {
+button,
+input {
     background-color: #ffa500;
     color: #000;
     border: none;
@@ -302,4 +303,32 @@ button:hover {
     .Eventos {
         font-size: 2.5rem;
     }
+}
+
+
+#Mensagem .proj {
+    width: auto;
+    margin: auto;
+    padding: auto;
+}
+
+form {
+    width: 100%;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+    margin: 0 0 1.5em 0;
+    width: 100%;
+    min-height: 2em;
 }
